@@ -1,0 +1,242 @@
+:root {
+    --primary : #F2308B;
+    --secondary : #FFE8A4;
+    --thirdy : #FFF9F1;
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.bg-primary {
+    background-color: var(--primary);
+}
+.bg-secondary {
+    background-color: var(--secondary);
+}
+.bg-thirdy {
+    background-color: var(--thirdy);
+}
+.primary {
+    color: var(--primary);
+}
+.bold {
+    font-weight: bold;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.flex {
+    display: flex;
+}
+.text-center {
+    text-align: center;
+}
+
+.separator {
+    display: block;
+    height: 10px;
+    background-color: var(--primary);
+}
+.logo img {
+    width: 100%;
+}
+.logo {
+    width: 150px;
+}
+.group {
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-menu i{
+    display: none;
+    padding: 5px;
+    color: white;
+}
+.social {
+    gap: 10px;
+}
+.social i{
+    font-size: 30px;
+}
+.nav-top {
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bottom {
+    list-style: none;
+    border: 1px black solid;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-bottom li {
+    padding: 10px;
+    text-transform: uppercase;
+}
+.nav-bottom li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.slide {
+    background-image: url('../img/slide1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position-y: -50px;
+
+    align-items: center;
+    justify-content: center;
+}
+header {
+    padding-bottom: 20px;
+}
+.slogan {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    gap: 50px;
+}
+.slogan h1 {
+    font-size: 40px;
+}
+.slogan p {
+    font-size: 20px;
+}
+.btn {
+    display: inline;
+    padding: 10px 10px;
+    border-radius: 2px;
+}
+.border-btn {
+    border: 1px var(--primary) solid;
+    margin-left: 20px;
+}
+.order {
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.order .description {
+    width: 500px;
+}
+.order figure img{
+    width: 100%;
+}
+.order figure {
+    width: 500px;
+    opacity: .5;
+    border: 10px green solid;
+}
+.order .description h1 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.order .description p {
+    line-height: 30px;
+}
+
+.talent {
+    gap: 20px;
+}
+.talent figure img{
+    border-radius: 10px;
+    filter: sepia(1);
+}
+.talent .description h3 {
+    margin-bottom: 20px;
+}
+.talent .description p {
+    line-height: 20px;
+}
+
+.category {
+    display: flex;
+    justify-content: space-around;
+}
+.category article {
+    width: 350px;
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 30px;
+}
+.category article figure img {
+    width: 100%;
+    border: 10px white solid;
+    border-radius: 50%;
+}
+.category article figure {
+    margin: auto;
+    margin-top: 10px;
+    width: 200px;
+}
+.category article h3 {
+    margin: 20px 0px;
+}
+.category article p {
+    padding: 0px 20px;
+    line-height: 25px;
+}
+.category article .button div{
+    color: white;
+    display: block;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    padding: 15px 20px;
+}
+.category article .button{
+    position: absolute;
+    bottom: 0px;
+    left: 130px;
+    padding-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+}
+.top-left figure img, .bottom-left figure img, .gallery-right figure img{
+    width: 100%;
+    height: 100%;
+}
+.gallery-left {
+    width: 50%;
+}
+.gallery-right{
+    width: 50%;
+}
+.top-left, .bottom-left{
+    display: flex;
+    align-content: stretch;
+}
+.gallery-right {
+    display: flex;
+    align-content: stretch;
+}
+footer {
+    text-align: center;
+}
+footer small {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.gal h1 {
+    padding: 30px 0px;
+}
+.top-icon {
+    display: block;
+    font-size: 30px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+    color: white;
+    background-color: var(--primary);
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #333;
+}

@@ -1,0 +1,38 @@
+@media screen and (max-width: 480px){
+    body {
+        overflow-x: hidden;
+    }
+    .nav-top {
+        flex-direction: column;
+    }
+    .nav-bottom {
+        display: none;
+    }
+    .icon-menu i{
+        display: block;
+    }
+    .group {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .order figure {
+        width: 90%;
+    }
+    .order .description {
+        width: 90%;
+    }
+    .order .description p {
+        text-align: left;
+    }
+    .talent figure {
+        width: 100%;
+    }
+    .top-left {
+        flex-direction: column;
+    }
+    .bottom-left {
+        flex-direction: column;
+    }
+}
